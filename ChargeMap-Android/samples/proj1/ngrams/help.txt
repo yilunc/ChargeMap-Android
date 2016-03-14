@@ -1,0 +1,9 @@
+quit: quits
+help: prints this message
+range [startDate] [endDate]: sets the graph range to <startDate> and <endDate>
+count [word] [year]: gets the count of <word> in the <year>
+hyponyms [word]: returns the hyponyms of <word>
+history [words..]: plots the graph of counts per year of every word in <words..>
+hypohist [words..]: plots the graph of counts of each word in <words..> and all its hyponyms per year
+word length: plots the average word length of all words by year
+zipf [year]: plots the zip’s law plot for words in <year>
